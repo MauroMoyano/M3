@@ -1,0 +1,8 @@
+.App {
+   text-align: center;
+}
+body {
+   background: no-repeat center url("../assets/bg3.png");
+   background-size: cover;
+
+}
