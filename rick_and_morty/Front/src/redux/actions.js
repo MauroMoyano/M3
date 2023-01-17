@@ -4,6 +4,7 @@ export const FILTER = "FILTER"
 export const ORDER = "ORDER"
 
 export const addFav = (character) => {
+    axios traeme el pinche character
     return{type: ADD_FAV, payload: character}
 }
 

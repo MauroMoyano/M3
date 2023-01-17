@@ -8,7 +8,7 @@ const initialState = {
 const reducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_FAV:
-            console.log("reducer - arreglo My favorite de estado global ->",state.myFavorites)
+            // console.log("reducer - arreglo My favorite de estado global ->",state.myFavorites)
             return {
                 myFavorites: [...state.myFavorites, action.payload],
                 allCharacters: [...state.myFavorites, action.payload]

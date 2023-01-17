@@ -36,7 +36,7 @@ function App() {
 
 async function onSearch(characters) {
      // console.log(characters)
-     await fetch(`http://localhost:3000/rickandmorty/onsearch/${characters}`)
+     await fetch(`http://localhost:3001/rickandmorty/character/${characters}`)
          .then((response) => response.json())
          .then((data) => {
              console.log("data de app", data)
